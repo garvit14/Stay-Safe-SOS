@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit_contact"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Edit Contacts" />
+        <item
+            android:id="@+id/nav_open_map"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Open Map" />
+        <item
+            android:id="@+id/nav_view_recordings"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="View Recordings" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_fall_detect"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Fall Detection" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

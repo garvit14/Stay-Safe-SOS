@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_screen1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trigger of SOS !!"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingBottom="0dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="378dp"
+            android:src="@drawable/timer2"
+            android:paddingTop="20dp"
+            android:layout_marginTop="0dp"
+            android:paddingBottom="20dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1.80" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Click on 'HELP' button to send sms to upto 5 emergency contacts with your current location."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

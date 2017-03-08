@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen3">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Contacts"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="378dp"
+            android:src="@drawable/update_contacts"
+            android:paddingTop="20dp"
+            android:layout_marginTop="0dp"
+            android:paddingBottom="20dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1.80" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="Save upto 5 contacts on which sms along with your current location will be send in case of emergency."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>
