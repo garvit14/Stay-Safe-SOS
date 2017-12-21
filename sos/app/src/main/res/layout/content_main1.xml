@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pulkit.sos.MainActivity1"
+    android:background="#fff"
+    tools:showIn="@layout/app_bar_main1"
+
+    android:orientation="vertical">
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/contact"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/contactmin"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="openContacts"
+            android:text="Choose Contact 1"
+            android:id="@+id/contact1"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:scaleType="fitXY"
+            android:id="@+id/d1"
+            android:onClick="deleteContact"
+            android:background="#FFF"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/contact_delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/contactmin"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="openContacts"
+            android:text="Choose Contact 2"
+            android:id="@+id/contact2"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:scaleType="fitXY"
+            android:id="@+id/d2"
+            android:onClick="deleteContact"
+            android:background="#FFF"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/contact_delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/contactmin"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="openContacts"
+            android:text="Choose Contact 3"
+            android:id="@+id/contact3"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:scaleType="fitXY"
+            android:id="@+id/d3"
+            android:layout_marginRight="3dp"
+            android:onClick="deleteContact"
+            android:background="#FFF"
+            android:src="@drawable/contact_delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/contactmin"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="openContacts"
+            android:text="Choose Contact 4"
+            android:id="@+id/contact4"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="3dp"
+            android:scaleType="fitXY"
+            android:id="@+id/d4"
+            android:onClick="deleteContact"
+            android:background="#FFF"
+            android:src="@drawable/contact_delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:src="@drawable/contactmin"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="openContacts"
+            android:text="Choose Contact 5"
+            android:id="@+id/contact5"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="36dp"
+            android:scaleType="fitXY"
+            android:id="@+id/d5"
+            android:onClick="deleteContact"
+            android:background="#FFF"
+            android:src="@drawable/contact_delete"/>
+    </LinearLayout>
+
+</LinearLayout>
