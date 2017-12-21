@@ -1,4 +1,25 @@
 # Stay-Safe-SOS
 An Android Operating System based Emergency SOS app.
 
-This android based application is an emergency SOS app which can be used by old age people ,girls and anybody. It triggers an SOS when a button is pressed. When an SOS is triggered message is sent to 5 saved emergency contacts along with current location of the user.As soon as SOS is triggered an audio recording is also started. It uses Google Nearby Places API to search for nearby hospitals, fire stations, and police stations .It also has a fall detect feature ,a loud siren alarm is triggered when either the user or phone falls.
+## Features :
+- [x] Ability to save upto 5 emergency contacts.
+- [x] Sending current location to emergency contacts in case of SOS triggers.
+- [x] Show map of vicinity with emergency points(**Hospitals**, **Police Stations**, and **Fire Stations**).
+      (Uses [Google Nearby Places API](https://developers.google.com/places/android-api/) )
+- [x] Record audio using microphone and save it to phone's memory.
+- [x] Ability to add SOS button as a widget to homescreen.
+- [x] Double tap to cancel triggered sos.
+- [x] Draw Pattern to cancel triggered sos.
+- [x] Trigger sos when phone or the user falls on the ground(*Partially implemented*).
+- [ ] Trigger sos on voice recognition.
+- [ ] Runtime Permissions
+
+### Some screenshots of the application :
+<img src="https://github.com/garvit14/Stay-Safe-SOS/blob/master/screenshots/Drawer.png" width="200"> <img src="https://github.com/garvit14/Stay-Safe-SOS/blob/master/screenshots/Main-screen.png" width="200">
+<img src="https://github.com/garvit14/Stay-Safe-SOS/blob/master/screenshots/Before-triggering.png" width="200">
+<img src="https://github.com/garvit14/Stay-Safe-SOS/blob/master/screenshots/After-triggering.png" width="200">
+<img src="https://github.com/garvit14/Stay-Safe-SOS/blob/master/screenshots/Map-of-vicinity.png" width="200">
+<img src="https://github.com/garvit14/Stay-Safe-SOS/blob/master/screenshots/contacts.png" width="200">
+<img src="https://github.com/garvit14/Stay-Safe-SOS/blob/master/screenshots/Pattern2.png" width="200">
+
+*Tested on Android 5.0 and below.*
